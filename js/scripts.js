@@ -10,7 +10,7 @@ window.onload = function() {
     if (age > 21) {
       drinkMenu.removeAttribute("class");
     } else if (age === 21) {
-      window.alert("Have some fun, you're just 21!");
+      window.alert("Have some fun, you're finally 21!");
       drinkMenu.removeAttribute("class");
     } else {
       under21Message.removeAttribute("class");
